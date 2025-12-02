@@ -154,7 +154,7 @@ with st.sidebar:
         st.session_state['logado'] = False
         st.switch_page("app.py")
 
-st.markdown("<h2 class='title-center'>Movimentações Financeiras</h2>", unsafe_allow_html=True)
+st.markdown("<h2 class='title-center'>Débitos não identificados</h2>", unsafe_allow_html=True)
 
 with st.container(border=True):
     col_filtro1, col_filtro2 = st.columns([3, 1])
