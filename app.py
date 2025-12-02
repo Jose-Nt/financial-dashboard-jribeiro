@@ -98,7 +98,7 @@ with col2:
 
     st.write("") 
     
-    if st.button("ACESSAR SISTEMA"):
+    if st.button("ACESSAR SISTEMA", use_container_width=True):
         tentar_login()
 
     if st.session_state['login_error']:
