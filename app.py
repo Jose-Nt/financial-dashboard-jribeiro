@@ -3,7 +3,7 @@ from time import sleep
 
 st.set_page_config(
     page_title="Monitoramento Financeiro - Login",
-    page_icon="🔒",
+    page_icon="📊",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
