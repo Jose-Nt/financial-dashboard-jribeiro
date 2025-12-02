@@ -22,6 +22,18 @@ st.markdown("""
         display: none;
     }
 
+    footer {
+        visibility: hidden;
+    }
+
+    #MainMenu {
+        visibility: hidden;
+    }
+    
+    .stDeployButton {
+        display: none;
+    }
+
     .block-container {
         padding-top: 3rem;
         padding-bottom: 0rem;
